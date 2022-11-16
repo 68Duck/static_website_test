@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="baseStyle.css" type="text/css">
+    <link rel="shortcut icon" type="icon/x-icon" href="Images/wordlessLogo.png" />
+    <link rel="stylesheet" href="homeStyle.css" type="text/css">
+    <!-- <link rel="shortcut icon" type="icon/x-icon" href="Images/wordlessLogo.png" /> -->
+    <title>68 Duck</title>
+  </head>
+  <body onresize="windowSizeChanged()">
+    <nav id="nav">
+      <a href="/" class="logoImageATag">
+        <!-- <img src="Images/logo2.png" alt="Logo image" height="75px"> -->
+        <img src="Images/logo2.png" alt="Logo image" height="75px">
+      </a>
+      <ul class="buttonUnorderedList">
+
+      </ul>
+      <div class="hamburgerMenu hide">
+        <div class="hamburgerMenuButton"></div>
+      </div>
+
+      <div id="hamburgerMenuDisplay" class="hamburgerMenuDisplay">
+      </nav>
+    <notNav class="content" style = "top:50px;">
+      <header>
+        <h1>68 Duck Tutoring</h1>
+      </header>
+      <main id="main">
+        <main style="background-image: url({{url_for('static',filename='Images/bgImage2.jpg')}}); background-size: 100%; background-repeat: no-repeat; height: 100%">
+          <br/>
+          <div class="leftParagraph">
+            <br/>
+            <b>
+              Personalised tuition without leaving your home,<br /> tailored to your child's needs.
+            </b>
+            <br/>
+            <br/>
+            </div>
+            <br />
+          <div class="rightParagraph">
+            <br/>
+            <b>
+              One-to-one tuition with a flexible schedule,<br>
+              no fixed course length and no sign up fees.
+            </b>
+            <br/>
+            <br/>
+          </div>
+          <br/>
+          <div class="leftParagraph">
+            <br/>
+            <b>
+              Lessons in Maths, Physics, Computing and 11+
+              <br/>From £30 per hour
+            </b>
+            <br/>
+            <br/>
+            </div>
+            <br />
+          <div class="fullPageParagraph">
+            <br/>
+            <div class="paragraphHeader">
+              <b>
+                About the tutor:
+              </b>
+            </div>
+            <img class="aboutTheTutorImage"src="Images/test3.png" alt="Logo image" height="200px">
+            <br/>
+            <br/>
+            <div class="paragraphContent">
+              Hi, I am Josh and I am currently studying at a grammar school in Buckinghamshire.
+
+              I am studying Maths, Further Maths, Physics and Computer Science at A-level, so I am offering tutoring up to UCAS (year 12) level in these subjects along with 11+ tutoring.
+
+              I have always enjoyed the prospect of teaching and have thoroughly enjoyed my past experiences in
+              tutoring and mentoring, and am looking to continue doing so in the coming years.
+            </div>
+            <br/>
+            <br />
+          </div>
+          <br/>
+          <br/>
+          <div class="fullPageParagraphLight">
+            <br/>
+            <div class="paragraphHeader">
+              <b>
+                Testimonials:
+              </b>
+            </div>
+            <br/>
+            <!-- <div class="paragraphContent">
+              Testimonials here
+            </div> -->
+            <div class="testimonialsWrapper">
+              <div class="testimonial">
+                <!-- FIX ME -->
+                <div style="text-align:center;">
+                  <b>Henry J </b><br/>
+                </div>
+                <div style="text-align:center;">
+                  27 11+ lessons
+                </div>
+                <br/><hr/><br/>
+                <b>Marie J.</b> parent
+                <br/><br/>
+                "We were incredibly lucky to find Josh during this year's' lock-down'. His Zoom lessons were brilliantly prepared and Henry was so enthusiastic about what he had learnt during them and seemed to be gaining so much from the tutoring that we upped it to two lessons a week. Henry found the lessons extremely engaging and due to Josh being younger we feel that this gave Henry a stronger confidence to ask questions that he perhaps wouldn't have with an older tutor.
+                We would definitely recommend Josh as a tutor for the 11+ or just for boosting your child's learning - particularly in Maths. He was patient and encouraging and always gave us a summary of how Henry had done at the end of every lesson so we could keep up with what they had covered - we couldn't have asked for more!"
+
+              </div>
+              <div class="testimonial">
+                <!-- FIX ME -->
+                <div style="text-align:center;">
+                  <b>Evan O</b><br/>
+                </div>
+                <div style="text-align:center;">
+                  17 11+ lessons
+                </div>
+                <br/><hr/><br/>
+                <b>Chris O.</b> parent
+                <br/><br/>
+                "We found Josh’s tutoring to be invaluable in supporting our son through a successful 11+ process. Josh is well prepared, engaging, and our son looked forwards to the session, which is a big win! Josh provides good structure in how to approach the questions with plenty of tips and tricks to solve them quickly, which is key to 11+ success. We thoroughly recommend Josh."
+              </div>
+              <div class="testimonial">
+                <div style="text-align:center;">
+                  <b>Josh H</b><br/>
+                </div>
+                <div style="text-align:center;">
+                  19 11+ lessons
+                </div>
+                <br/><hr/><br/>
+                <b>Andy and Liz H.</b> parent
+                <br/><br/>
+                "Josh’s help and input has been invaluable. Our son was originally really struggling with NVR and it was his weakest discipline. With Josh’s support, it became his strongest area and gave him the much needed marks he needed to secure a place at the school he wanted to go to. Thanks so much Josh for all you have done!"
+              </div>
+            </div>
+            <br/><br/>
+
+            </div>
+
+          <br />
+          <br />
+        </main>
+      </main>
+      <footer>
+        <div>
+          Contact me through Josh@68Duck.co.uk
+        </div>
+      </footer>
+    </notNav>
+    <script src="baseApp.js" charset="utf-8"></script>
+    <!-- {% block scripts %}{% endblock %} -->
+  </body>
+</html>
